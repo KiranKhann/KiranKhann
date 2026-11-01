@@ -48,18 +48,15 @@
     <path id="e9" d="M1010 240 L1140 215"/>
     <path id="e10" d="M830 80 L760 130"/>
     <path id="e11" d="M840 225 L760 130"/>
-    <!-- tagline wipes, one per line, each in its own quarter of a 16 s loop -->
+    <!-- tagline wipes, one per line, each in its own third of a 12 s loop -->
     <clipPath id="t1"><rect x="68" y="210" height="32" width="0">
-      <animate attributeName="width" values="0;720;720;0;0" keyTimes="0;0.09;0.23;0.25;1" dur="16s" begin="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;720;720;0;0" keyTimes="0;0.12;0.31;0.333;1" dur="12s" begin="1.6s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="t2"><rect x="68" y="210" height="32" width="0">
-      <animate attributeName="width" values="0;0;720;720;0;0" keyTimes="0;0.25;0.34;0.48;0.5;1" dur="16s" begin="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;720;720;0;0" keyTimes="0;0.333;0.453;0.643;0.666;1" dur="12s" begin="1.6s" repeatCount="indefinite"/>
     </rect></clipPath>
     <clipPath id="t3"><rect x="68" y="210" height="32" width="0">
-      <animate attributeName="width" values="0;0;720;720;0;0" keyTimes="0;0.5;0.59;0.73;0.75;1" dur="16s" begin="1.6s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="t4"><rect x="68" y="210" height="32" width="0">
-      <animate attributeName="width" values="0;0;720;720;0" keyTimes="0;0.75;0.84;0.98;1" dur="16s" begin="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;0;720;720;0" keyTimes="0;0.666;0.786;0.976;1" dur="12s" begin="1.6s" repeatCount="indefinite"/>
     </rect></clipPath>
   </defs>
 
@@ -106,10 +103,9 @@
     <rect class="rule" x="72" y="138" width="120" height="5" rx="2.5" fill="url(#accent)"/>
     <text class="role" x="70" y="190" font-size="28" font-weight="600" fill="#C9B6F2">AI Lead &amp; Data Scientist</text>
     <g font-size="20" fill="#8B949E">
-      <text x="70" y="232" clip-path="url(#t1)">I build AI systems and analytics that businesses actually run on</text>
-      <text x="70" y="232" clip-path="url(#t2)">Multi-agent LLM platforms · computer vision · predictive analytics</text>
-      <text x="70" y="232" clip-path="url(#t3)">Role-scoped agents · grounded generation · multi-tenant control planes</text>
-      <text x="70" y="232" clip-path="url(#t4)">MS Artificial Intelligence @ FAST-NUCES · Karachi, Pakistan</text>
+      <text x="70" y="232" clip-path="url(#t1)">Multi-agent LLM platforms · computer vision · predictive analytics</text>
+      <text x="70" y="232" clip-path="url(#t2)">Role-scoped agents · grounded generation · multi-tenant control planes</text>
+      <text x="70" y="232" clip-path="url(#t3)">MS Artificial Intelligence @ FAST-NUCES · Karachi, Pakistan</text>
     </g>
   </g>
 </svg>
