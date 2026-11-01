@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="350" viewBox="0 0 860 350" role="img" aria-label="Terminal: whoami, AI Lead and Data Scientist; agents status: scope-guard, hr-agent and vision-model online; now: building a multi-tenant, multi-agent AI platform">
+  <style>
+    text { font-family: Consolas, 'SFMono-Regular', Menlo, 'Liberation Mono', monospace; font-size: 15px; }
+    .u { fill: #F85D7F; } .p { fill: #A675E0; } .w { fill: #C9D1D9; } .c { fill: #E6EDF3; }
+    .o { fill: #8B949E; } .ok { fill: #3FB950; } .k { fill: #F8D866; }
+    @media (prefers-reduced-motion: reduce) {
+      .ln { opacity: 1 !important; }
+      .typed { clip-path: none !important; }
+    }
+  </style>
+  <defs>
+    <!-- typing wipes for the three commands (16 s loop) -->
+    <clipPath id="c1"><rect x="176" y="68" height="24" width="0">
+      <animate attributeName="width" values="0;0;70;70" keyTimes="0;0.025;0.0625;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="176" y="130" height="24" width="0">
+      <animate attributeName="width" values="0;0;130;130" keyTimes="0;0.125;0.1875;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="176" y="244" height="24" width="0">
+      <animate attributeName="width" values="0;0;40;40" keyTimes="0;0.2875;0.3125;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="858" height="348" rx="12" fill="#0D1117" stroke="#7F3FBF" stroke-opacity="0.6" stroke-width="2"/>
+  <path d="M2 36 V13 a11 11 0 0 1 11 -11 H847 a11 11 0 0 1 11 11 V36 Z" fill="#161B22"/>
+  <circle cx="24" cy="19" r="6" fill="#FF5F57"/><circle cx="44" cy="19" r="6" fill="#FEBC2E"/><circle cx="64" cy="19" r="6" fill="#28C840"/>
+  <text x="430" y="24" text-anchor="middle" class="o" style="font-size:13px">kiran@agents: ~</text>
+
+  <!-- 1. whoami -->
+  <g class="ln" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.025;0.029;0.9375;0.96875;1" dur="16s" repeatCount="indefinite"/>
+    <text x="28" y="84" textLength="140" lengthAdjust="spacingAndGlyphs"><tspan class="u">kiran@agents</tspan><tspan class="w">:</tspan><tspan class="p">~</tspan><tspan class="w">$</tspan></text>
+    <text class="c typed" x="176" y="84" clip-path="url(#c1)">whoami</text>
+  </g>
+  <g class="ln" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08125;0.0853;0.9375;0.96875;1" dur="16s" repeatCount="indefinite"/>
+    <text x="28" y="110" class="w">AI Lead &amp; Data Scientist <tspan class="o">· 5+ years taking AI from idea to production</tspan></text>
+  </g>
+
+  <!-- 2. agents status -->
+  <g class="ln" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.125;0.129;0.9375;0.96875;1" dur="16s" repeatCount="indefinite"/>
+    <text x="28" y="146" textLength="140" lengthAdjust="spacingAndGlyphs"><tspan class="u">kiran@agents</tspan><tspan class="w">:</tspan><tspan class="p">~</tspan><tspan class="w">$</tspan></text>
+    <text class="c typed" x="176" y="146" clip-path="url(#c2)">agents status</text>
+  </g>
+  <g class="ln" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.20625;0.2103;0.9375;0.96875;1" dur="16s" repeatCount="indefinite"/>
+    <text x="28" y="172" class="ok">●</text><text x="48" y="172" class="k">scope-guard</text>
+    <text x="196" y="172" class="o">grounds every figure in real tool output</text><text x="740" y="172" class="ok">✓ online</text>
+  </g>
+  <g class="ln" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.225;0.229;0.9375;0.96875;1" dur="16s" repeatCount="indefinite"/>
+    <text x="28" y="198" class="ok">●</text><text x="48" y="198" class="k">hr-agent</text>
+    <text x="196" y="198" class="o">routes requests and drafts documents</text><text x="740" y="198" class="ok">✓ online</text>
+  </g>
+  <g class="ln" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.24375;0.2478;0.9375;0.96875;1" dur="16s" repeatCount="indefinite"/>
+    <text x="28" y="224" class="ok">●</text><text x="48" y="224" class="k">vision-model</text>
+    <text x="196" y="224" class="o">estimates live bird weight from images</text><text x="740" y="224" class="ok">✓ online</text>
+  </g>
+
+  <!-- 3. now -->
+  <g class="ln" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2875;0.2915;0.9375;0.96875;1" dur="16s" repeatCount="indefinite"/>
+    <text x="28" y="260" textLength="140" lengthAdjust="spacingAndGlyphs"><tspan class="u">kiran@agents</tspan><tspan class="w">:</tspan><tspan class="p">~</tspan><tspan class="w">$</tspan></text>
+    <text class="c typed" x="176" y="260" clip-path="url(#c3)">now</text>
+  </g>
+  <g class="ln" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33125;0.3353;0.9375;0.96875;1" dur="16s" repeatCount="indefinite"/>
+    <text x="28" y="286" class="w"><tspan class="p">→</tspan> building a multi-tenant, multi-agent AI platform <tspan class="o">· MS AI @ FAST-NUCES</tspan></text>
+  </g>
+
+  <!-- prompt with blinking cursor -->
+  <g class="ln" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.375;0.379;0.9375;0.96875;1" dur="16s" repeatCount="indefinite"/>
+    <text x="28" y="322" textLength="140" lengthAdjust="spacingAndGlyphs"><tspan class="u">kiran@agents</tspan><tspan class="w">:</tspan><tspan class="p">~</tspan><tspan class="w">$</tspan></text>
+    <rect x="178" y="309" width="9" height="17" fill="#C9D1D9">
+      <animate attributeName="opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

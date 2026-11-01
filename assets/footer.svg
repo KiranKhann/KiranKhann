@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Thanks for stopping by. Let's build something together.">
+  <style>
+    .dot { transform-box: fill-box; transform-origin: center; animation: wave 2.4s ease-in-out infinite; }
+    @keyframes wave { 0%, 100% { transform: translateY(0); opacity: .45; } 50% { transform: translateY(-10px); opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A675E0"/>
+      <stop offset="1" stop-color="#F85D7F"/>
+      <animate attributeName="x1" values="0;-1;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <!-- a row of agents passing a wave along -->
+  <g fill="#7F3FBF">
+    <circle class="dot" style="animation-delay:0s" cx="420" cy="40" r="5"/>
+    <circle class="dot" style="animation-delay:.15s" cx="460" cy="40" r="5"/>
+    <circle class="dot" style="animation-delay:.3s" cx="500" cy="40" r="5"/>
+    <circle class="dot" style="animation-delay:.45s" cx="540" cy="40" r="5"/>
+    <circle class="dot" style="animation-delay:.6s" cx="580" cy="40" r="6" fill="#F85D7F"/>
+    <circle class="dot" style="animation-delay:.75s" cx="620" cy="40" r="6" fill="#F85D7F"/>
+    <circle class="dot" style="animation-delay:.9s" cx="660" cy="40" r="5"/>
+    <circle class="dot" style="animation-delay:1.05s" cx="700" cy="40" r="5"/>
+    <circle class="dot" style="animation-delay:1.2s" cx="740" cy="40" r="5"/>
+    <circle class="dot" style="animation-delay:1.35s" cx="780" cy="40" r="5"/>
+  </g>
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="95" font-size="26" font-weight="700" fill="url(#ink)">Thanks for stopping by!</text>
+    <text x="600" y="128" font-size="16" fill="#8B949E">Let's build something together · linkedin.com/in/kewri-khan</text>
+  </g>
+</svg>

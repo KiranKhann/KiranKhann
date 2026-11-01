@@ -1,0 +1,43 @@
+name: Refresh "Latest from the lab"
+
+on:
+  schedule:
+    - cron: "0 1 * * *"        # every day at 06:00 Pakistan time
+  workflow_dispatch:            # run by hand from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_readme.py
+      - .github/workflows/refresh-readme.yml
+
+permissions:
+  contents: write
+
+# Shares a queue with the 3D chart workflow so their commits never collide.
+concurrency:
+  group: profile-updates
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Rebuild the section from the GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python3 scripts/update_readme.py
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "Nothing new."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Refresh latest projects"
+          git pull --rebase
+          git push

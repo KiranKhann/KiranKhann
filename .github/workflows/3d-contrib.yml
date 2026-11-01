@@ -1,0 +1,45 @@
+name: 3D contribution chart
+
+on:
+  schedule:
+    - cron: "30 1 * * *"       # every day at 06:30 Pakistan time
+  workflow_dispatch:            # run by hand from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/3d-contrib.yml
+      - .github/profile-3d-settings.json
+
+permissions:
+  contents: write
+
+# Shares a queue with the README refresh so their commits never collide.
+concurrency:
+  group: profile-updates
+  cancel-in-progress: false
+
+jobs:
+  chart:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Draw the 3D contribution chart in the profile colours
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/profile-3d-settings.json
+
+      - name: Commit the chart if it changed
+        run: |
+          git add profile-3d-contrib
+          if git diff --cached --quiet; then
+            echo "Chart unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update 3D contribution chart"
+          git pull --rebase
+          git push

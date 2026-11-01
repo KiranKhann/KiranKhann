@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-kiran-3d.svg",
+  "backgroundColor": "#0D1117",
+  "foregroundColor": "#C9D1D9",
+  "strongColor": "#F85D7F",
+  "weakColor": "#8B949E",
+  "radarColor": "#A675E0",
+  "growingAnimation": true,
+  "contribColors": ["#1B1530", "#3B1F6E", "#5B2F9E", "#7F3FBF", "#F85D7F"]
+}
