@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=KiranKhann&label=Profile%20views&color=7F3FBF&style=flat-square" alt="Profile views"/>
-  <a href="https://github.com/KiranKhann?tab=followers"><img src="https://img.shields.io/github/followers/KiranKhann?label=Followers&style=flat-square&color=F85D7F" alt="Followers"/></a>
 </p>
 
 <h3 align="center">
