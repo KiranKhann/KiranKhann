@@ -65,12 +65,12 @@ AI Lead with **5+ years of experience** designing and deploying multi-tenant ent
 <!-- LATEST:START -->
 | | Project | What it is | Updated |
 |:-:|:--|:--|:--|
-| 📓 | **[pakistan-winters-eof](https://github.com/KiranKhann/pakistan-winters-eof)** | EOF analysis of climate data (Hannachi 2004) replicated on NOAA data, with a Streamlit app on Pakistan's winters and a crop advisor for farmers | 2 days ago |
+| 📓 | **[pakistan-winters-eof](https://github.com/KiranKhann/pakistan-winters-eof)** | EOF analysis of climate data (Hannachi 2004) replicated on NOAA data, with a Streamlit app on Pakistan's winters and a crop advisor for farmers | 3 days ago |
 | 📓 | **[urdu-sarcasm-detection](https://github.com/KiranKhann/urdu-sarcasm-detection)** | Urdu sarcasm detection with emoji semantics (DS5007 NLP, Fall 2026, Assignment 1) | 3 weeks ago |
 | 🌐 | **[Portfolio](https://github.com/KiranKhann/Portfolio)** | My Personal Portfolio | 2 months ago |
 | 🌐 | **[Multi-Agent-Hierarchy](https://github.com/KiranKhann/Multi-Agent-Hierarchy)** | — | 5 months ago |
 
-<sub>🤖 This list updates itself every day through a GitHub Action · last refresh 07 Nov 2026, 11:44 PKT</sub>
+<sub>🤖 This list updates itself every day through a GitHub Action · last refresh 08 Nov 2026, 11:51 PKT</sub>
 <!-- LATEST:END -->
 
 ## 🚀 Major Projects
