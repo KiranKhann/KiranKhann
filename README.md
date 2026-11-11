@@ -65,12 +65,12 @@ AI Lead with **5+ years of experience** designing and deploying multi-tenant ent
 <!-- LATEST:START -->
 | | Project | What it is | Updated |
 |:-:|:--|:--|:--|
-| 📓 | **[karachi-road-segmentation](https://github.com/KiranKhann/karachi-road-segmentation)** | UNet/UNet++ segmentation framework + Cityscapes-trained SegFormer/Mask2Former evaluated on Karachi road scenes, with privacy-preserving pipeline and CVPR 2025 / ICML 2024 survey | yesterday |
-| 📓 | **[pakistan-winters-eof](https://github.com/KiranKhann/pakistan-winters-eof)** | EOF analysis of climate data (Hannachi 2004) replicated on NOAA data, with a Streamlit app on Pakistan's winters and a crop advisor for farmers | 5 days ago |
+| 📓 | **[pakistan-winters-eof](https://github.com/KiranKhann/pakistan-winters-eof)** | EOF analysis of climate data (Hannachi 2004) replicated on NOAA data, with a Streamlit app on Pakistan's winters and a crop advisor for farmers | today |
+| 📓 | **[karachi-road-segmentation](https://github.com/KiranKhann/karachi-road-segmentation)** | UNet/UNet++ segmentation framework + Cityscapes-trained SegFormer/Mask2Former evaluated on Karachi road scenes, with privacy-preserving pipeline and CVPR 2025 / ICML 2024 survey | 2 days ago |
 | 📓 | **[urdu-sarcasm-detection](https://github.com/KiranKhann/urdu-sarcasm-detection)** | Urdu sarcasm detection with emoji semantics (DS5007 NLP, Fall 2026, Assignment 1) | 3 weeks ago |
 | 🌐 | **[Portfolio](https://github.com/KiranKhann/Portfolio)** | My Personal Portfolio | 2 months ago |
 
-<sub>🤖 This list updates itself every day through a GitHub Action · last refresh 10 Nov 2026, 12:55 PKT</sub>
+<sub>🤖 This list updates itself every day through a GitHub Action · last refresh 11 Nov 2026, 12:24 PKT</sub>
 <!-- LATEST:END -->
 
 ## 🚀 Major Projects
