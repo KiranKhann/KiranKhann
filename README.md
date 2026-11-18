@@ -65,12 +65,12 @@ AI Lead with **5+ years of experience** designing and deploying multi-tenant ent
 <!-- LATEST:START -->
 | | Project | What it is | Updated |
 |:-:|:--|:--|:--|
-| 📓 | **[karachi-road-segmentation](https://github.com/KiranKhann/karachi-road-segmentation)** | UNet/UNet++ segmentation framework + Cityscapes-trained SegFormer/Mask2Former evaluated on Karachi road scenes, with privacy-preserving pipeline and CVPR 2025 / ICML 2024 survey | 8 days ago |
+| 📓 | **[karachi-road-segmentation](https://github.com/KiranKhann/karachi-road-segmentation)** | UNet/UNet++ segmentation framework + Cityscapes-trained SegFormer/Mask2Former evaluated on Karachi road scenes, with privacy-preserving pipeline and CVPR 2025 / ICML 2024 survey | 9 days ago |
 | 📓 | **[urdu-sarcasm-detection](https://github.com/KiranKhann/urdu-sarcasm-detection)** | Urdu sarcasm detection with emoji semantics (DS5007 NLP, Fall 2026, Assignment 1) | 4 weeks ago |
 | 🌐 | **[Portfolio](https://github.com/KiranKhann/Portfolio)** | My Personal Portfolio | 3 months ago |
 | 🌐 | **[Multi-Agent-Hierarchy](https://github.com/KiranKhann/Multi-Agent-Hierarchy)** | — | 5 months ago |
 
-<sub>🤖 This list updates itself every day through a GitHub Action · last refresh 17 Nov 2026, 13:42 PKT</sub>
+<sub>🤖 This list updates itself every day through a GitHub Action · last refresh 18 Nov 2026, 13:06 PKT</sub>
 <!-- LATEST:END -->
 
 ## 🚀 Major Projects
