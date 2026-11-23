@@ -65,12 +65,12 @@ AI Lead with **5+ years of experience** designing and deploying multi-tenant ent
 <!-- LATEST:START -->
 | | Project | What it is | Updated |
 |:-:|:--|:--|:--|
-| 📓 | **[DS5007-Extractive-QA-SQuAD](https://github.com/KiranKhann/DS5007-Extractive-QA-SQuAD)** | Transformer-based extractive QA on SQuAD 1.1: Transformer from scratch vs fine-tuned DistilBERT vs sliding windows (DS5007 NLP Assignment 2) | yesterday |
-| 📓 | **[karachi-road-segmentation](https://github.com/KiranKhann/karachi-road-segmentation)** | UNet/UNet++ segmentation framework + Cityscapes-trained SegFormer/Mask2Former evaluated on Karachi road scenes, with privacy-preserving pipeline and CVPR 2025 / ICML 2024 survey | 13 days ago |
+| 📓 | **[DS5007-Extractive-QA-SQuAD](https://github.com/KiranKhann/DS5007-Extractive-QA-SQuAD)** | Transformer-based extractive QA on SQuAD 1.1: Transformer from scratch vs fine-tuned DistilBERT vs sliding windows (DS5007 NLP Assignment 2) | 2 days ago |
+| 📓 | **[karachi-road-segmentation](https://github.com/KiranKhann/karachi-road-segmentation)** | UNet/UNet++ segmentation framework + Cityscapes-trained SegFormer/Mask2Former evaluated on Karachi road scenes, with privacy-preserving pipeline and CVPR 2025 / ICML 2024 survey | 2 weeks ago |
 | 📓 | **[urdu-sarcasm-detection](https://github.com/KiranKhann/urdu-sarcasm-detection)** | Urdu sarcasm detection with emoji semantics (DS5007 NLP, Fall 2026, Assignment 1) | 5 weeks ago |
 | 🌐 | **[Portfolio](https://github.com/KiranKhann/Portfolio)** | My Personal Portfolio | 3 months ago |
 
-<sub>🤖 This list updates itself every day through a GitHub Action · last refresh 22 Nov 2026, 12:39 PKT</sub>
+<sub>🤖 This list updates itself every day through a GitHub Action · last refresh 23 Nov 2026, 13:28 PKT</sub>
 <!-- LATEST:END -->
 
 ## 🚀 Major Projects
